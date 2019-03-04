@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "TestingGroundsProjectile.generated.h"
+#include "BallProjectile.generated.h"
 
 UCLASS(config=Game)
 class ATestingGroundsProjectile : public AActor
