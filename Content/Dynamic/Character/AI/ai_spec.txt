@@ -1,0 +1,6 @@
+If see enemy v
+	Move within range of enemy
+	Shoot enemy
+If no enemy v
+	Visit last known location
+	Go to next patrol point
