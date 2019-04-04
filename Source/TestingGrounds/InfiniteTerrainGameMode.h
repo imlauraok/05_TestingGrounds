@@ -18,6 +18,12 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Bounds Pool")
 	void PopulateBoundsVolumePool();
 
+	AInfiniteTerrainGameMode();
+
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Pool")
+	class UActorPool* NavMeshBoundsVolumePool;
+
 private:
 	void AddToPool(class ANavMeshBoundsVolume *VolumeToAdd);
 };
